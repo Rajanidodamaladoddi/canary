@@ -6,7 +6,7 @@ metadata:
   labels:
     app: canary-demo
 spec:
-  type: LoadBalancer
+  type: Ingress
   # type: ClusterIP
   ports:
     - port: 80
